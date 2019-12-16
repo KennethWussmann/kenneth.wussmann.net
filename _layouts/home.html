@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 console">
+        <div class="console-title">bash</div>
+        <div class="console-body">
+            <span class="console-prompt">{{ site.console.directory }}   {{ site.console.branch }}</span><span class="console-cmd">cat README.md</span>
+            <div class="console-image"><img src="/img/logo_transparent.png" height="150px"/></div>
+            <div class="console-content">
+                {{ site.author }} // {{ site.tagline }} <br/>
+                Visit me on <a href="https://github.com/{{ site.social.github }}">GitHub</a>,
+                <a href="https://twitter.com/{{ site.social.twitter }}">Twitter</a> or reach out to me via e-mail <a href="mailto:{{ site.address.mail }}">{{ site.address.mail }}</a> or Discord <u>{{ site.social.discord }}</u>.
+            </div>
+        </div>
+        <div class="console-footer"><a href="imprint">imprint</a> // <a href="privacy">privacy</a></div>
+    </div>
+    <div class="col-md-2"></div>
+</div>

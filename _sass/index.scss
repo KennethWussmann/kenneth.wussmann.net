@@ -1,0 +1,16 @@
+@import "vars";
+@import "mixins/media.mixin";
+@import "mixins/animation.mixin";
+
+@import "components/console";
+
+@font-face {
+  font-family: "Meslo";
+  src: url("/assets/fonts/meslo.ttf");
+}
+
+html,
+body {
+  color: white;
+  background-color: $night-purple;
+}

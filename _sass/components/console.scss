@@ -1,0 +1,99 @@
+.console {
+  margin-top: 80px;
+  background-color: $dark;
+  border-radius: 7px;
+  font-family: "Meslo";
+  min-height: 500px;
+  box-shadow: 0 4px 12px 0px rgba(0, 0, 0, .25);
+  opacity: 0.8;
+
+  @include media("only-xs") {
+    margin: 130px 10px 0 10px;
+    min-height: unset;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: bold;
+
+    &:hover {
+      background: $purple;
+    }
+  }
+
+  &-title {
+    height: 40px;
+    background-image: url("/img/mac_actions.svg");
+    background-position: 0px 10px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 10pt;
+  }
+
+  &-prompt {
+    background-color: $blue;
+    padding: 0 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+
+    @include media("only-xs") {
+      display: none;
+    }
+  }
+
+  &-cmd {
+    @include media("only-xs") {
+      display: none;
+    }
+  }
+
+  &-body {
+    font-size: 13pt !important;
+  }
+
+  &-image {
+    display: block;
+    text-align: center;
+    & > img {
+      $duration: 5s;
+      transition: all $duration ease-in-out; /* easeInOutSine */
+      animation: 10s linear;
+      animation-iteration-count: infinite;
+      @include animation-keyframes {
+        0% {
+          transform: translateX(-20px);
+        }
+        50% {
+          transform: translateX(20px);
+        }
+        100% {
+          transform: translateX(-20px);
+        }
+      }
+    }
+  }
+
+  &-content {
+    margin: 0 0 25px 0;
+  }
+
+  &-footer {
+    color: #8d8d8d;
+    bottom: 10px;
+    right: 10px;
+    font-size: 9pt;
+    position: absolute;
+    margin-top: 30px;
+
+    a:hover {
+      color: #fff;
+    }
+
+    @include media("only-xs") {
+      position: relative;
+      margin: 10px 0 10px 10px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# Site settings
+title: Kenneth Wußmann
+author: Kenneth Wußmann
+tagline: Cloud Native Engineer
+permalink: :title/
+console:
+  directory: ~/kenneth.wussmann.net
+  branch: master
+social:
+  github: KennethWussmann
+  twitter: ketrwu
+  discord: Kenneth#1000
+address:
+  name: Kenneth Wussmann
+  street: Rittmerskamp 17
+  zip: 22415 Hamburg
+  country: Deutschland
+  phone: 040 22859015
+  mail: kenneth@wussmann.net
+domains:
+  - wussmann.net
+  - ketrwu.de
+  - levitate.de
+sass:
+  style: compact
+plugins:
+  - jekyll-seo-tag

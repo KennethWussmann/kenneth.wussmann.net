@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)" data-darkreader-inline-fill="" style="--darkreader-inline-fill:none;">
+        <circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5" data-darkreader-inline-fill="" data-darkreader-inline-stroke=""
+                style="--darkreader-inline-fill:#ff5a50; --darkreader-inline-stroke:#f45b56;"></circle>
+        <circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5" data-darkreader-inline-fill="" data-darkreader-inline-stroke=""
+                style="--darkreader-inline-fill:#ffc928; --darkreader-inline-stroke:#f5c053;"></circle>
+        <circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5" data-darkreader-inline-fill="" data-darkreader-inline-stroke=""
+                style="--darkreader-inline-fill:#66f17a; --darkreader-inline-stroke:#73fa81;"></circle>
+    </g>
+</svg>
