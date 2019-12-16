@@ -1,7 +1,7 @@
 # Site settings
 title: Kenneth Wußmann
 author: Kenneth Wußmann
-tagline: Cloud Native Engineer
+tagline: Cloud Native Developer
 permalink: :title/
 console:
   directory: ~/kenneth.wussmann.net
