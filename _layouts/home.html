@@ -5,9 +5,9 @@ layout: default
 <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-8 console">
-        <div class="console-title">bash</div>
+        <div class="console-title">zsh</div>
         <div class="console-body">
-            <span class="console-prompt">{{ site.console.directory }}   {{ site.console.branch }}</span><span class="console-cmd">cat README.md</span>
+            <span class="console-prompt">{{ site.console.directory }} <span class="console-git">  {{ site.console.branch }} ❯</span></span><span class="console-cmd">cat README.md</span>
             <div class="console-image"><img src="/img/logo.svg" height="150px"/></div>
             <div class="console-content">
                 {{ site.author }} // {{ site.tagline }} <br/>

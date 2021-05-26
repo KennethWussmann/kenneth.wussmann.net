@@ -33,14 +33,17 @@
   }
 
   &-prompt {
-    background-color: $blue;
-    padding: 0 10px;
+    color: #45AEFB;
     margin-right: 10px;
     border-radius: 2px;
 
     @include media("only-xs") {
       display: none;
     }
+  }
+
+  &-git {
+    color: #7DD133;
   }
 
   &-cmd {
