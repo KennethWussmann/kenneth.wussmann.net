@@ -5,7 +5,7 @@ tagline: Cloud Native Developer
 permalink: :title/
 console:
   directory: ~/kenneth.wussmann.net
-  branch: master
+  branch: main
 social:
   github: KennethWussmann
   twitter: ketrwu
